@@ -2,12 +2,11 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "vision-camera-face-detector": ["./src/index"]
+      "@mat2718/vision-camera-face-detector": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "esModuleInterop": true,
-    "importsNotUsedAsValues": "error",
     "forceConsistentCasingInFileNames": true,
     "jsx": "react",
     "lib": ["esnext"],
@@ -23,5 +22,6 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "esnext"
-  }
+  },
+  "exclude": ["docs"]
 }
